@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Simple ant script. Makes full distribution for application with config files in conf directory and libraries in lib directory-->
+<project default="jar-all" name="Create retistutable for SMPP-XML Gateway">
+
+	<property name="target" value="1.6" />
+	<property name="source" value="1.6" />
+
+	<property name="jar.name" value="unifinder" />
+
+	<property name="jar.dir" value="dist" />
+	<property name="config.dir" value="conf" />
+	<property name="lib.dir" value="lib" />
+	<property name="index.dir" value="index" />
+
+	<property name="main.class" value="ru.reksoft.unifinder.gui.MainWindow" />
+
+	<path id="project.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="clean">
+		<delete>
+			<fileset dir="bin">
+			</fileset>
+			<fileset dir="${jar.dir}">
+			</fileset>
+		</delete>
+	</target>
+
+	<target name="build" depends="clean">
+		<javac debug="false" destdir="bin" source="${source}" target="${target}">
+			<src path="src" />
+			<classpath refid="project.classpath" />
+		</javac>
+	</target>
+
+	<target name="configure" depends="build">
+		<mkdir dir="${jar.dir}/${lib.dir}" />
+		<mkdir dir="${jar.dir}/${config.dir}" />
+		<mkdir dir="${jar.dir}/${index.dir}" />
+		<copy todir="${jar.dir}/${lib.dir}">
+			<fileset dir="${lib.dir}" />
+		</copy>
+		<copy todir="${jar.dir}/${config.dir}">
+			<fileset dir="${config.dir}" />
+		</copy>
+	</target>
+
+	<target name="bat">
+		<echo file="${jar.dir}/${jar.name}-run.bat">java -jar ${jar.name}.jar</echo>
+
+		<echo file="${jar.dir}/${jar.name}-run.sh">
+			#!/bin/bash
+			java -jar ${jar.name}.jar
+		</echo>
+
+	</target>
+
+	<target name="jar-all" depends="configure,bat">
+		<pathconvert property="manifest.classpath" pathsep=" ${lib.dir}/">
+			<path refid="project.classpath" />
+			<flattenmapper />
+		</pathconvert>
+		<jar destfile="${jar.dir}/${jar.name}.jar">
+			<manifest>
+				<attribute name="Main-Class" value="${main.class}" />
+				<attribute name="Class-Path" value="${manifest.classpath}" />
+			</manifest>
+			<fileset dir="bin" />
+		</jar>
+	</target>
+
+	<!--<target name="tests" depends="build">
+		<javac debug="false" destdir="bin" source="${source}" target="${target}">
+			<src path="${tests.dir}" />
+			<classpath refid="project.classpath" />
+		</javac>
+		<junit printsummary="on" haltonfailure="yes">
+			<classpath>
+				<pathelement location="bin" />
+				<path refid="project.classpath" />
+			</classpath>
+
+			<formatter type="brief" usefile="true" />
+
+			<batchtest fork="yes" todir="${report.dir}">
+				<fileset dir="${tests.dir}">
+					<include name="**/*Test*.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+		<delete>
+			<fileset dir="${report.dir}" />
+		</delete>
+
+	</target>-->
+
+</project>

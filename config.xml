@@ -1,0 +1,301 @@
+<list>
+  <ru.vimvd.TableDTO>
+    <name>Перехват акустической
+      информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи направленного микрофона</header><Mmin>250</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи диктофона</header><Mmin>200</Mmin><Mmax>400</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи акустической радиозакладки</header><Mmin>400</Mmin><Mmax>800</Mmax><Tmin>420</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи акустических инфракрасной закладки</header><Mmin>400</Mmin><Mmax>1000</Mmax><Tmin>600</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи акустической закладки типа «телефонное ухо» </header><Mmin>800</Mmin><Mmax>1000</Mmax><Tmin>720</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи акустической телефонной закладки</header><Mmin>1000</Mmin><Mmax>1200</Mmax><Tmin>800</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи акустической сетевой закладки</header><Mmin>1000</Mmin><Mmax>1400</Mmax><Tmin>700</Tmin><Tmax>800</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Прямой перехват акустической информации, осуществляемый при помощи проводной акустической системы</header><Mmin>1200</Mmin><Mmax>1400</Mmax><Tmin>600</Tmin><Tmax>720</Tmax></ru.vimvd.RowDTO>
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Mmin</string>
+      <string>Mmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  <ru.vimvd.TableDTO>
+    <name>Cъем акустической
+      информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи электронного стетоскопа комплексированного с радиопередающим устройством</header><Mmin>200</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи электронного стетоскопа комплексированного с инфракрасным передающим устройством</header><Mmin>100</Mmin><Mmax>200</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи виброакустического преобразователя комплексированного с радиопередающим устройством</header><Mmin>400</Mmin><Mmax>800</Mmax><Tmin>420</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи виброакустического преобразователя комплексированного с инфракрасным передающим устройством</header><Mmin>500</Mmin><Mmax>800</Mmax><Tmin>600</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи ЛАЛС при совместном размещении облучающего и приемного устройств в условиях идеальной отражающей поверхности</header><Mmin>600</Mmin><Mmax>800</Mmax><Tmin>720</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи ЛАЛС при разнесении по месту расположения облучающего и приемного устройств в условиях идеальной отражающей поверхности</header><Mmin>800</Mmin><Mmax>900</Mmax><Tmin>720</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи ЛАЛС при совместном размещении облучающего и приемного устройств в условиях шероховатой отражающей поверхности</header><Mmin>100</Mmin><Mmax>240</Mmax><Tmin>150</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Съем акустической информации, осуществляемый при помощи ЛАЛС при разнесении по месту расположения облучающего и приемного устройств в условиях шероховатой отражающей поверхности</header><Mmin>120</Mmin><Mmax>540</Mmax><Tmin>120</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO> 	
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Mmin</string>
+      <string>Mmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  <ru.vimvd.TableDTO>
+    <name>Перехват информации ЭМИ</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Перехват информации ЭМИ, осуществляемый при помощи программно-аппаратного комплекса контроля</header><Mmin>300</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Перехват информации ЭМИ, осуществляемый при помощи специализированного приемника контроля</header><Mmin>100</Mmin><Mmax>200</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Перехват информации ЭМИ, осуществляемый при помощи портативного сканерного приемника</header><Mmin>400</Mmin><Mmax>800</Mmax><Tmin>420</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Перехват информации ЭМИ, осуществляемый при помощи портативного индикатора электромагнитного поля - радиочастотомера</header><Mmin>400</Mmin><Mmax>550</Mmax><Tmin>600</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>		
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Mmin</string>
+      <string>Mmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  <ru.vimvd.TableDTO>
+    <name>Регистрация информации
+     наводок ЭМИ</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Перехват информации ЭМИ, осуществляемый при помощи программно-аппаратного комплекса контроля</header><Mmin>200</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Перехват информации ЭМИ, осуществляемый при помощи специализированного приемника контроля</header><Mmin>100</Mmin><Mmax>200</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>	
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Mmin</string>
+      <string>Mmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  <ru.vimvd.TableDTO>
+    <name>Регистрация видовой
+     информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Регистрация видовой информации, осуществляемая при помощи средств съема оптических сигналов в оптическом диапазоне. </header><Mmin>200</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Регистрация видовой информации, осуществляемая при помощи средств съема оптических сигналов в ИК-диапазоне</header><Mmin>100</Mmin><Mmax>200</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Mmin</string>
+      <string>Mmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  <ru.vimvd.TableDTO>
+  	<name>Несанкционированный доступ
+  	 к информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Вскрытие механизмов паролирования доступа</header><Mmin>200</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Изменение статуса доверенного объекта на ложный на основе использования недостатков алгоритмов удаленного поиска</header><Mmin>100</Mmin><Mmax>200</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Изменение статуса доверенного объекта на ложный при помощи вредоносных программ </header><Mmin>400</Mmin><Mmax>800</Mmax><Tmin>420</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Анализ полномочий на доступ к ресурсам</header><Mmin>400</Mmin><Mmax>1000</Mmax><Tmin>600</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Анализ комментариев к учетным записям</header><Mmin>200</Mmin><Mmax>400</Mmax><Tmin>150</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Выявление настроек маршрутизатора</header><Mmin>400</Mmin><Mmax>600</Mmax><Tmin>120</Tmin><Tmax>420</Tmax></ru.vimvd.RowDTO>
+    	
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Mmin</string>
+      <string>Mmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  
+  
+  <ru.vimvd.TableDTO>
+  	<name>Копирование информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Поиск искомой информации ложным доверенным объектом или субъектом доступа</header><Mmin>200</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Копирование информации ложным доверенным объектом или субъектом доступа</header><Mmin>100</Mmin><Mmax>200</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Создание ложным доверенным объектом или субъектом доступа дополнительной учетной записи с администраторскими полномочиями</header><Mmin>400</Mmin><Mmax>800</Mmax><Tmin>420</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Изменение ложным доверенным объектом или субъектом доступа пароля учетных записей с администраторскими полномочиями</header><Mmin>400</Mmin><Mmax>700</Mmax><Tmin>600</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Установка ложным доверенным объектом или субъектом доступа программ удаленного администрирования</header><Mmin>150</Mmin><Mmax>400</Mmax><Tmin>120</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+    	
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Mmin</string>
+      <string>Mmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  
+  <ru.vimvd.TableDTO>
+  	<name>Противодействие перехвату
+  	 акустической информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи направленного микрофона </header><Mmin>100</Mmin><Mmax>300</Mmax><Tmin>150</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи диктофона </header><Mmin>50</Mmin><Mmax>100</Mmax><Tmin>60</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи акустической радиозакладки</header><Mmin>300</Mmin><Mmax>700</Mmax><Tmin>210</Tmin><Tmax>450</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи акустической инфракрасной закладки</header><Mmin>200</Mmin><Mmax>500</Mmax><Tmin>300</Tmin><Tmax>600</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи акустической закладки типа «телефонное ухо» </header><Mmin>400</Mmin><Mmax>500</Mmax><Tmin>360</Tmin><Tmax>420</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи акустической телефонной закладки</header><Mmin>100</Mmin><Mmax>120</Mmax><Tmin>90</Tmin><Tmax>120</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи акустической сетевой закладки</header><Mmin>100</Mmin><Mmax>140</Mmax><Tmin>90</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие прямому перехвату акустической информации, осуществляемому при помощи проводной акустической системы</header><Mmin>120</Mmin><Mmax>140</Mmax><Tmin>120</Tmin><Tmax>450</Tmax></ru.vimvd.RowDTO>
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Lmin</string>
+      <string>Lmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  <ru.vimvd.TableDTO>
+  	<name>Противодействие съему
+  	 акустической информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи электронного стетоскопами комплексированного с радиопередающим устройством</header><Mmin>20</Mmin><Mmax>50</Mmax><Tmin>30</Tmin><Tmax>60</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи электронного стетоскопа комплексированного с инфракрасным передающим устройством</header><Mmin>100</Mmin><Mmax>200</Mmax><Tmin>120</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи виброакустического преобразователя комплексированного с радиопередающим устройством</header><Mmin>40</Mmin><Mmax>80</Mmax><Tmin>420</Tmin><Tmax>720</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи виброакустического преобразователя комплексированного с инфракрасным передающим устройством</header><Mmin>40</Mmin><Mmax>100</Mmax><Tmin>60</Tmin><Tmax>90</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи ЛАЛС при совместном размещении облучающего и приемного устройств в условиях идеальной отражающей поверхности</header><Mmin>80</Mmin><Mmax>100</Mmax><Tmin>720</Tmin><Tmax>900</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи ЛАЛС при разнесении по месту расположения облучающего и приемного устройств в условиях идеальной отражающей поверхности</header><Mmin>100</Mmin><Mmax>120</Mmax><Tmin>90</Tmin><Tmax>120</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи ЛАЛС при совместном размещении облучающего и приемного устройств в условиях шероховатой отражающей поверхности</header><Mmin>100</Mmin><Mmax>140</Mmax><Tmin>90</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие съему акустической информации, осуществляемому при помощи ЛАЛС при разнесении по месту расположения облучающего и приемного устройств в условиях шероховатой отражающей поверхности</header><Mmin>120</Mmin><Mmax>140</Mmax><Tmin>120</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Lmin</string>
+      <string>Lmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  <ru.vimvd.TableDTO>
+  	<name>Противодействие перехвату 
+  	информации ЭМИ</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Противодействие перехвату информации ЭМИ, осуществляемому при помощи программно-аппаратного комплекса контроля</header><Mmin>20</Mmin><Mmax>50</Mmax><Tmin>30</Tmin><Tmax>60</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие перехвату информации ЭМИ, осуществляемому при помощи специализированного приемника контроля</header><Mmin>10</Mmin><Mmax>20</Mmax><Tmin>60</Tmin><Tmax>300</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие перехвату информации ЭМИ, осуществляемому при помощи портативного сканерного приемника</header><Mmin>40</Mmin><Mmax>80</Mmax><Tmin>90</Tmin><Tmax>120</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие перехвату информации ЭМИ, осуществляемому при помощи портативного индикатора электромагнитного поля - радиочастотомера</header><Mmin>40</Mmin><Mmax>100</Mmax><Tmin>60</Tmin><Tmax>90</Tmax></ru.vimvd.RowDTO>
+    	
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Lmin</string>
+      <string>Lmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  <ru.vimvd.TableDTO>
+  	<name>Противодействие регистрации 
+  	информации наводок ЭМИ</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Противодействие регистрации информации наводок ЭМИ, осуществляемой при помощи высокочувствительного низкочастотного усилителя с амплитудным детектором</header><Mmin>20</Mmin><Mmax>50</Mmax><Tmin>30</Tmin><Tmax>60</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие регистрации информации наводок ЭМИ, осуществляемой при помощи высокочувствительного низкочастотного усилителя с частотным детектором</header><Mmin>10</Mmin><Mmax>20</Mmax><Tmin>90</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Lmin</string>
+      <string>Lmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  <ru.vimvd.TableDTO>
+  	<name>Противодействие регистрации
+  	 видовой информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Противодействие регистрации видовой информации, осуществляемой при помощи средств съема оптических сигналов в оптическом диапазоне. </header><Mmin>100</Mmin><Mmax>400</Mmax><Tmin>30</Tmin><Tmax>90</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие регистрации видовой информации, осуществляемой при помощи средств съема оптических сигналов в ИК-диапазоне</header><Mmin>80</Mmin><Mmax>150</Mmax><Tmin>60</Tmin><Tmax>120</Tmax></ru.vimvd.RowDTO>
+    	
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Lmin</string>
+      <string>Lmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  <ru.vimvd.TableDTO>
+  	<name>Противодействие 
+  	несанкционированному доступу 
+  	к информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Противодействие вскрытию механизмов паролирования доступа</header><Mmin>20</Mmin><Mmax>50</Mmax><Tmin>30</Tmin><Tmax>120</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие внедрению ложного доверенного объекта или субъекта доступа</header><Mmin>10</Mmin><Mmax>40</Mmax><Tmin>120</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие изменению статуса доверенного объекта на ложный при помощи вредоносных программ </header><Mmin>40</Mmin><Mmax>80</Mmax><Tmin>120</Tmin><Tmax>180</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие анализу полномочий на доступ к ресурсам</header><Mmin>40</Mmin><Mmax>100</Mmax><Tmin>90</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие анализу комментариев к учетным записям</header><Mmin>20</Mmin><Mmax>50</Mmax><Tmin>30</Tmin><Tmax>120</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие выявлению настроек маршрутизатора</header><Mmin>30</Mmin><Mmax>40</Mmax><Tmin>40</Tmin><Tmax>90</Tmax></ru.vimvd.RowDTO>
+    		
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Lmin</string>
+      <string>Lmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  <ru.vimvd.TableDTO>
+  	<name>Противодействие копированию
+  	 информации</name>
+    <data>
+    	<ru.vimvd.RowDTO><header>Противодействие поиску ложным доверенным объектом или субъектом доступа искомой информации</header><Mmin>20</Mmin><Mmax>80</Mmax><Tmin>15</Tmin><Tmax>30</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие копированию информации ложным доверенным объектом или субъектом доступа</header><Mmin>100</Mmin><Mmax>400</Mmax><Tmin>120</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие созданию ложным доверенным объектом или субъектом доступа дополнительной учетной записи с администраторскими полномочиями</header><Mmin>40</Mmin><Mmax>80</Mmax><Tmin>45</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие изменению ложным доверенным объектом или субъектом доступа пароля учетных записей с администраторскими полномочиями</header><Mmin>80</Mmin><Mmax>200</Mmax><Tmin>60</Tmin><Tmax>150</Tmax></ru.vimvd.RowDTO>
+		<ru.vimvd.RowDTO><header>Противодействие установке ложным доверенным объектом или субъектом доступа программ удаленного администрирования</header><Mmin>140</Mmin><Mmax>280</Mmax><Tmin>30</Tmin><Tmax>180</Tmax></ru.vimvd.RowDTO>
+    </data>
+    <header class="string-array">
+      <string>Наименование функции</string>
+      <string>Lmin</string>
+      <string>Lmax</string>
+      <string>Tmin</string>
+      <string>Tmax</string>
+      <string>k</string>
+      <string>t</string>
+    </header>
+  </ru.vimvd.TableDTO>
+  
+  
+  
+  
+</list>
